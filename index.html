@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-      <!-- Шапка проекта пока вместо ссылок ставлю # - смотря куда будут ссылаться-->
+</head>
+
+<body>
+    <!-- Шапка проекта пока вместо ссылок ставлю # - смотря куда будут ссылаться-->
     <header class="main-header">
         <nav class="main-navigation">
             <ul class="site-navigation">
@@ -13,12 +15,31 @@
                 <li><a href="#">Фото и видео</a></li>
                 <li><a href=#><img src="logo.jpg"></a></li>
                 <li><a href="#">Карта штата</a></li>
-                <li><a href="#">Гостиницы</li>
+                <li><a href="#">Гостиницы</a></li>
             </ul>
         </nav>
+    </header>
+    <main>
+        <!--Поместил фразы "Welcome...", "SEDONA", "Because the Grand..." в section - так как можно назвать одним словом "Приветствие" и 
+            и поместил в отдельный класс "central-invite-slogans"- чтобы потом можно было отценторовать их, а на заднем фоне поместить картинку с видом-->
+        <section class="central-invite-slogans">
+            <h1 class="visually-hidden">Седона</h1>
+            <!--Отдельный класс для слова Welcome- будет свой шрифт , выбран тег b-->
+            <b class="central-invite-welcome">Welcome<br></b>
+            <b class="central-invite-to-the">to the gorgerous</b>
+            <h1 class="central-invite-sedona">sedona</h1>
+            <b class="central-invite-slogan">Because the Grand<br>
+                Canyon sucks!</b>
+        </section>
         
-      </header>
-   
+        <section class="reason-to-visit">
+            <p> Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</p>
+        </section>
+        
+        
+    </main>
 
-  </body>
+
+</body>
+
 </html>
