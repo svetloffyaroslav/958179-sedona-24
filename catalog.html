@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <body>
     <header class="main-header">
         <nav class="main-navigation">
-            <a href=#><img src="logo-sedona.jpg" width="50" height="50" alt="Sedona"></li><!-- логотип- размеры условны-->
-            <ul class="site-navigation">
-                <li><a href="#">Информация</a></li>
-                <li><a href="#">Фото и видео</a></li>
-                <li><a href="#">Карта штата</a></li>
-                <li><a href="#">Гостиницы</a></li>
-            </ul>
+            <a href=#><img src="logo-sedona.jpg" width="50" height="50" alt="Sedona"><!-- логотип- размеры условны-->
+                <ul class="site-navigation">
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Фото и видео</a></li>
+                    <li><a href="#">Карта штата</a></li>
+                    <li><a href="#">Гостиницы</a></li>
+                </ul>
         </nav>
     </header>
-    
+    <main>
+        <section class="hostel-features">
+            <h2 class="hostel-features">Инфраструктура</h2>
+            <ul class="infrastructure-items">
+                <li> <input type="checkbox" id="pull" name="pull">
+                    <label for="pull">Бассейн</label>
+                </li>
+                <li><input type="checkbox" id="parking" name="parking">
+                    <label for="parking">Парковка</label>
+                </li>
+                <li><input type="checkbox" id="wifi" name="wifi">
+                    <label for="wifi">WI-FI</label>
+                </li>
+            </ul>
 
-    </body>
+            <h2 class="hostel-features">Тип жилья:</h2>
+            <ul class="infrastructure-items">
+                <li><input type="checkbox" id="hotel" name="hotel">
+                    <label for="hotel">Гостиница</label>
+                </li>
+                <li><input type="checkbox" id="motel" name="motel">
+                    <label for="motel">Мотель</label>
+                </li>
+                <li><input type="checkbox" id="appartment" name="appartment">
+                    <label for="appartment">Аппартаменты</label>
+                </li>
+            </ul>
+            
+            <h2 class="hostel-features">Стоимость в сутки:</h2>
+            <!-- Форма--->
+            <a class="hotel-fetures-button" href="#">Показать</a>
+        </section>
+
+
+    </main>
+
+</body>
+
 </html>
